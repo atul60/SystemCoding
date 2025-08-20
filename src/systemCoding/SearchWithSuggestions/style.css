@@ -1,0 +1,29 @@
+.searchIcon:hover {
+  cursor: pointer;
+}
+
+/* .searchBox,
+.suggestions,
+.list {
+  width: 4rem;
+} */
+
+.suggestions {
+  width: fit-content;
+  margin: auto;
+}
+
+.list {
+  height: 4rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: rgb(182, 182, 189);
+}
+
+.item {
+  list-style-type: none;
+}
+
+.selected {
+  background-color: gray;
+}
