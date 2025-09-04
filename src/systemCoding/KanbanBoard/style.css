@@ -1,0 +1,27 @@
+.board {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.column {
+  width: auto;
+  min-width: 25vw;
+  min-height: 80vh;
+  background-color: gray;
+  border: 1px solid black;
+}
+
+.header {
+  background-color: rgb(227, 65, 65);
+}
+
+.item {
+  /* height: 100px; */
+  border: 1px solid black;
+  margin: 10px 20px;
+}
+
+.section {
+  min-height: 60vh;
+  height: auto;
+}
